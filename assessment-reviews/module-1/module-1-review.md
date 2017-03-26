@@ -146,7 +146,7 @@ for(var i = 1; i <= 10; i++){console.log(i);}
 
 3. Translate the following pseudocode into JavaScript: if `score` is greater than `3` and `lives` is greater than `0`, alert "You win!".
 ```
-if(score > 3 || lives > 0){
+if(score > 3 && lives > 0){
 alert("You win!");
 }
 ```
